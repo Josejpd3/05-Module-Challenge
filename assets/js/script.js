@@ -5,8 +5,51 @@ setInterval (function() {
     // Gets current time in 24hr format
     let currentTime = moment().format("k");
     if((currentTime >= 9) && (currentTime <= 17)) { /* During Bussiness hours */
-        if ($(".description").attr("id") = currentTime) {
-            $("textarea").addClass("present")
+        $("#" + currentTime).addClass("present")
+        if (currentTime > 9) {
+            $("#9").addClass("past");
+        } else if (currentTime < 9){
+            $("#9").addClass("future");
+        }
+        if (currentTime > 10) {
+            $("#10").addClass("past");
+        } else if (currentTime < 10){
+            $("#10").addClass("future");
+        }
+        if (currentTime > 11) {
+            $("#11").addClass("past");
+        } else if (currentTime < 11){
+            $("#11").addClass("future");
+        }
+        if (currentTime > 12) {
+            $("#12").addClass("past");
+        } else if (currentTime < 12){
+            $("#12").addClass("future");
+        }
+        if (currentTime > 13) {
+            $("#13").addClass("past");
+        } else if (currentTime < 13){
+            $("#13").addClass("future");
+        }
+        if (currentTime > 14) {
+            $("#14").addClass("past");
+        } else if (currentTime < 14){
+            $("#14").addClass("future");
+        }
+        if (currentTime > 15) {
+            $("#15").addClass("past");
+        } else if (currentTime < 15){
+            $("#15").addClass("future");
+        }
+        if (currentTime > 16) {
+            $("#16").addClass("past");
+        } else if (currentTime < 16){
+            $("#16").addClass("future");
+        }
+        if (currentTime > 17) {
+            $("#17").addClass("past");
+        } else if (currentTime < 17){
+            $("#17").addClass("future");
         }
     } else if (currentTime > 17) { /* After Bussiness hours */
         $("textarea").addClass("past")
