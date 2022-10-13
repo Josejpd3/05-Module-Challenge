@@ -6,7 +6,7 @@
 
 ## Work Day Scheduler
 
-[Work Day Scheduler]("https://josejpd3.github.io/05-Module-Challenge/") is a useful tool to structure important tasks that need be completed. This scheduler allows you to easily view the current date and distinguish previous, current, and upcoming tasks depending on the time of the day.
+[Work Day Scheduler](https://josejpd3.github.io/05-Module-Challenge/) is a useful tool to structure important tasks that need be completed. This scheduler allows you to easily view the current date and distinguish previous, current, and upcoming tasks depending on the time of the day.
 
 ---
 
